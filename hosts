@@ -1,12 +1,12 @@
 [load_balancers]
-frontend 
+frontend1.48af.internal
 
 [app_servers]
-app-01
-app-02
+app2.48af.internal
+app1.48af.internal
 
 [database_servers]
-appdb1
+appdb1.48af.internal
 
 [internal:children]
 load_balancers
